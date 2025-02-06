@@ -1,0 +1,86 @@
+/*global*/ 
+body{
+    font-family: "Roboto", serif;
+    background-color: #17ff9b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.container{
+    width:80%;
+    margin: 50px;
+}
+/*header*/
+.header-init{
+    background-color: #ffffff;
+    height: 150px;
+}
+.header-init h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 70%;
+    margin: 0 auto;
+    justify-items: center;
+
+}
+.menu-bar{
+    max-width: 400px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
+
+/*projects*/
+
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:20px;
+    row-gap: 30px;
+    border: 100px;
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    column-gap:20px;
+    row-gap: 30px;
+    border: 100px;
+} 
+
+.img-container{
+    max-width: 80%;
+}
+
+.text-container{
+    text-align: justify;
+    max-width: 80%;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+}
